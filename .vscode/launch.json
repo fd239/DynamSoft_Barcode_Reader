@@ -11,9 +11,14 @@
             "program": "${workspaceFolder}\\BarcodeRead\\manage.py",
             "args": [
                 "runserver",
+                "3427",
                 "--noreload"
             ],
-            "django": true
+            "django": true,
+            
+        },
+        {
+            "port": 3427
         }
     ]
 }
